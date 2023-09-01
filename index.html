@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Breaker</title>
+    <style>
+      body {
+    background-color: #333;
+    color: #bbb;
+}
+
+#textContainer {
+    font-family: Arial;
+    margin: 15px;
+}
+
+#textHeader {
+    font-size: xx-large;
+
+}
+
+#textTeaser {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#releaseLink {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.a:link {
+    color: #888;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: #888;
+}
+    </style>
+</head>
+
+<body>
+    <div id="textContainer">
+        <div id="textHeader">Code Breaker</div>
+        <div id="textTeaser">Guess the code / colour combination!</div>
+        <div id="releaseLink">Release version 2.8.0.0 is
+            <a href="https://github.com/TorAlverMoen/CodeBreaker/releases/tag/v2.8.0.0-release">here</a>
+        </div>
+        <div id="screenshot">
+            <img src="doc/screenshot.png" alt="">
+        </div>
+        <p>This was a test for a possible puzzle to be included in another game but has since evolved into its own
+            little
+            game.</p>
+        <p>In early versions of the game there were three colours in the combination which increased to four in the
+            later
+            versions. The difficulty is the same in all versions.</p>
+        <p>Here is how to play:</p>
+        <p>The player tries to guess the pattern, in both order and colour, within the turns allowed by the difficulty
+            level.</p>
+        <p>When the player finishes one turn, the computer provides feedback by telling the player how many of the
+            colours
+            are correct but in the wrong position and how many colours are correct and in the correct position.</p>
+        <p>If the player guesses the correct colours in the correct order the player wins, if not the game advances to
+            the
+            next turn or ends if there are no more turns.</p>
+    </div>
+</body>
+
+</html>
